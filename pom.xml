@@ -35,6 +35,7 @@
         </dependency>
 
         <!-- The following must be removed when we work with cucumber-picocontainer -->
+        <!-- Only if we have constructor with parameters in the steps classes , the value is shared by all step classes -->
 <!--        <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-spring</artifactId>
