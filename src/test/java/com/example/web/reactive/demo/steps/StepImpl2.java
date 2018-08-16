@@ -19,9 +19,9 @@ public class StepImpl2 {
 		System.out.println("============= starting scenario:" + scenario.getName() + " =============");
 	}
 
-	@Given("^hi1$")
-	public void hi() throws Throwable {
-
+	@Given("^hi1 (.*)$")
+	public void hi(String name) throws Throwable {
+		System.out.println("name=" + name);
 	}
 
     @Then("^getting shared param$")
@@ -30,8 +30,8 @@ public class StepImpl2 {
     }
 
 
-    @Then("^bi1$")
-	public void bi1() throws Throwable {
-
+    @Then("^bi1 (\\d+)$")
+	public void bi1(int price) throws Throwable {
+		System.out.println("price=" + price);
 	}
 }
