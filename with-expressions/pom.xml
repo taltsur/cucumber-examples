@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>com.example</groupId>
@@ -26,22 +26,23 @@
         <!-- The following must be removed when we work with cucumber-picocontainer -->
         <!-- Only if we have constructor with parameters in the steps classes , the value is shared by all step classes -->
         <dependency>
-                    <groupId>io.cucumber</groupId>
-                    <artifactId>cucumber-spring</artifactId>
-                    <version>${io.cucumber}</version>
-                    <scope>test</scope>
-                </dependency>
-                <dependency>
-                    <groupId>io.cucumber</groupId>
-                    <artifactId>gherkin</artifactId>
-                    <version>5.0.0</version>
-                    <scope>test</scope>
-                </dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-spring</artifactId>
+            <version>${io.cucumber}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>gherkin</artifactId>
+            <version>5.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <!--we use this dependency in the second module inthis project-->
         <!--<dependency>-->
-            <!--<groupId>io.cucumber</groupId>-->
-            <!--<artifactId>cucumber-picocontainer</artifactId>-->
-            <!--<version>${io.cucumber}</version>-->
-            <!--<scope>test</scope>-->
+        <!--<groupId>io.cucumber</groupId>-->
+        <!--<artifactId>cucumber-picocontainer</artifactId>-->
+        <!--<version>${io.cucumber}</version>-->
+        <!--<scope>test</scope>-->
         <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
