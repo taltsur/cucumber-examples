@@ -9,6 +9,7 @@
     <modules>
         <module>with-expressions</module>
         <module>with-cucumber-picocontainer</module>
+        <module>multi-config-files</module>
     </modules>
     <packaging>pom</packaging>
 
