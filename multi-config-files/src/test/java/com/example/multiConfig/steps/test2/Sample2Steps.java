@@ -1,6 +1,6 @@
-package com.example.multiConfig.test.test2;
+package com.example.multiConfig.steps.test2;
 
-import com.example.multiConfig.test.SampleTestContext;
+import com.example.multiConfig.steps.SampleTestContext;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Value;

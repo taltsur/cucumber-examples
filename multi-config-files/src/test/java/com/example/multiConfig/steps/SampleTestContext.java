@@ -1,4 +1,4 @@
-package com.example.multiConfig.test;
+package com.example.multiConfig.steps;
 
 import com.example.multiConfig.SampleService;
 import lombok.Getter;

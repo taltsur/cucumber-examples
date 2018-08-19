@@ -1,8 +1,8 @@
-package com.example.multiConfig.test.test2;
+package com.example.multiConfig.steps.test2;
 
 import com.example.multiConfig.SampleConfig;
 import com.example.multiConfig.SampleService;
-import com.example.multiConfig.test.SampleTestContext;
+import com.example.multiConfig.steps.SampleTestContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.PropertySource;
