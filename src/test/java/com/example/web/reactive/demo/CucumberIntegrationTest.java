@@ -13,7 +13,7 @@ import org.springframework.test.context.ContextConfiguration;
 				{
 						"src/test/resources/features",
 				},
-		glue = {"com.example.web.reactive.demo.impls"},
+		glue = {"com.example.web.reactive.demo.steps"},
 		plugin = {"pretty", "json:target/cucumber-report.json"})
 
 
