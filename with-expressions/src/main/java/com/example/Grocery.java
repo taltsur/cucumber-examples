@@ -1,4 +1,4 @@
-package com.example.web.reactive.demo;
+package com.example;
 
 
 public class Grocery {

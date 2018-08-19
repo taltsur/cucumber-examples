@@ -1,4 +1,4 @@
-package com.example.web.reactive.demo;
+package com.example;
 
 public enum Color {
     RED, GREEN, BLUE
