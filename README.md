@@ -2,11 +2,11 @@
 
 This repository contains examples of Cucumber JVM tests.
 
-* [Cucumber sharing state (`cucumber-picocontainer`)](https://docs.cucumber.io/cucumber/state/).
-* [Cucumber expressions](https://docs.cucumber.io/cucumber/cucumber-expressions/).
-* [Cucumber custom types](https://docs.cucumber.io/cucumber/cucumber-expressions/).
-* Multiple step files.
-* Multiple config files.
+* [Sharing State (`cucumber-picocontainer`)](https://docs.cucumber.io/cucumber/state/).
+* [Expressions](https://docs.cucumber.io/cucumber/cucumber-expressions/).
+* [Custom Types](https://docs.cucumber.io/cucumber/cucumber-expressions/).
+* Multiple Step Files.
+* Multiple Configuration Files.
 
 ##### Current Cucumber JVM dependency version `3.x.x`
 
