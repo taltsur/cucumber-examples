@@ -1,12 +1,13 @@
-## Cucumber Java Examples (for Intellij)
+## Cucumber JVM (Java) Examples (for Intellij)
 
 This repository contains examples of Cucumber JVM tests.
 
 * Cucumber dependency injection (`cucumber-picocontainer`).
 * Cucumber Expressions.
 * Multiple Step files.
+* Multiple config files.
 
-##### Current Cucumber JVM version `3.x.x`
+##### Current Cucumber JVM dependency version `3.x.x`
 
 
 ### Getting Started
