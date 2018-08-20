@@ -1,4 +1,4 @@
-package com.example.multiConfig.test.test1;
+package com.example.multiConfig.steps.test1;
 
 
 import cucumber.api.CucumberOptions;
@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        //glue = {"com.example.multiConfig.test"},
+        //glue = {"com.example.multiConfig.steps"},
         features = "src/test/resources/features/sample.feature")
 public class SampleTest {
 }
