@@ -5,6 +5,7 @@ import com.example.with.expressions.Color;
 import com.example.with.expressions.Grocery;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import io.cucumber.datatable.DataTable;
 
 import java.util.HashMap;
 import java.util.List;
@@ -54,4 +55,14 @@ public class StepImpl1 {
         assertEquals(expectedResult, "ABC");
         assertThat(expectedResult, is("ABC"));
     }
+
+    @Given("the following colors are available")
+    public void the_following_colors_are_available(List<Color> colors) {
+
+         for (Color currColor : colors) {
+            System.out.println("currColor=" +currColor);
+        }
+    }
+
+
 }

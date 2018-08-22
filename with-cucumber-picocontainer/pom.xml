@@ -30,7 +30,11 @@
             <version>${io.cucumber}</version>
             <scope>test</scope>
         </dependency>
-
+        <!-- used for org.apache.commons.lang3.time.StopWatch -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+         </dependency>
     </dependencies>
 
 </project>

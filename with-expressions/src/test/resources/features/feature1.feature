@@ -1,6 +1,9 @@
 Feature: aaaa
 
   Scenario: (1)
+#    The following Given doesn't work in Cucumber 3.0.2 will be retested in Cucumber verion 4.x
+#    Given the following colors are available
+#    | RED |
     Given the price list for an international coffee shop
       |   name  | price |
       | KMSY | 29 |
