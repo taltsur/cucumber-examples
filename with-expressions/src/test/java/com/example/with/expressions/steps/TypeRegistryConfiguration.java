@@ -58,5 +58,6 @@ public class TypeRegistryConfiguration implements TypeRegistryConfigurer {
                     }
                 }
         ));
+
     }
 }
